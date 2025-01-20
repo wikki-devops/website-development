@@ -2,3 +2,23 @@ header .navbar-brand img {
     max-height: 75px;
 }
 
+.portfolio-filter li {
+    padding: 0px 12px;
+}
+
+.nav-tabs .nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-tabs .nav-item a {
+    flex: 1 1 auto;
+}
+
+@media (max-width: 768px) {
+    .nav-tabs .nav-item {
+        width: 50%; /* Two columns */
+    }
+}
