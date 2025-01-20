@@ -11,6 +11,7 @@ header .navbar-brand img {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    width: 200px;
 }
 
 .nav-tabs .nav-item a {
@@ -21,4 +22,11 @@ header .navbar-brand img {
     .nav-tabs .nav-item {
         width: 50%; /* Two columns */
     }
+}
+
+.tab-style-02 .nav-tabs>li.nav-item>a.nav-link.active{
+    border-bottom: none !important;
+}
+.tab-style-02 .nav-tabs>li.nav-item>a.nav-link:hover {
+    border-bottom: none !important;
 }
