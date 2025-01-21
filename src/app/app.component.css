@@ -20,13 +20,31 @@ header .navbar-brand img {
 
 @media (max-width: 768px) {
     .nav-tabs .nav-item {
-        width: 50%; /* Two columns */
+        width: 50%;
+        /* Two columns */
     }
 }
 
-.tab-style-02 .nav-tabs>li.nav-item>a.nav-link.active{
+.tab-style-02 .nav-tabs>li.nav-item>a.nav-link.active {
     border-bottom: none !important;
 }
+
 .tab-style-02 .nav-tabs>li.nav-item>a.nav-link:hover {
     border-bottom: none !important;
+}
+
+.no-border-bottom .feature-box {
+    border-bottom: none !important;
+}
+
+.no-border-right .feature-box {
+    border-right: none !important;
+}
+
+.bg-dark-gray {
+    background-color: #00017A !important;
+}
+
+a:hover {
+    color: black;
 }

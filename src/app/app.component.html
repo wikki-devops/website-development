@@ -3,30 +3,31 @@
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
                 <a class="navbar-brand" href="/">
-                    <img src="assets/images/logo.png" alt class="default-logo" />
+                    <img src="assets/images/logo-white.png" alt class="default-logo" />
                     <img src="assets/images/logo.png" alt class="alt-logo" />
-                    <img src="assets/images/logo.png" alt class="mobile-logo" />
+                    <img src="assets/images/logo-white.png" alt class="mobile-logo" />
                 </a>
             </div>
             <div class="col-auto col-lg-2 text-end d-none d-sm-flex">
-                <div class="header-icon">
-                    <div class="header-button">
-                        <a href class="text-white bg-black alt-font btn border-1 btn-transparent-white-light border-color-transparent-white-light btn-small left-icon btn-switch-text btn-rounded">
+                <div class="header-icon"> 
+                    <div class="header-button"> 
+                        <a href="#" class="btn border-1 btn-transparent-white-light border-color-transparent-white-light btn-small left-icon btn-switch-text btn-rounded">
                             <span>
-                                <span class="btn-double-text" data-text="Quick Enquiry">
-                                    Quick Enquiry
-                                </span>
+                                <span><i class="fa-solid fa-phone"></i></span>
+                                <span class="btn-double-text" data-text="Quick Enquiry">Quick Enquiry</span> 
                             </span>
                         </a>
-                    </div>
-                </div>
+                    </div> 
+                </div>  
             </div>
         </div>
     </nav>
 </header>
 <!-- header end -->
 
-<section class="p-0 full-screen md-h-700px bg-dark-gray sm-h-600px ipad-top-space-margin cover-background" data-parallax-background-ratio="0.8" style="background-image: url('https://godparticles.ae/assets/images/bg.png');">
+
+
+<section class="p-0 full-screen md-h-700px bg-black sm-h-600px ipad-top-space-margin cover-background" data-parallax-background-ratio="0.8" style="background-image: url('assets/images/banner.png');">
     <div class="container h-100">
         <div class="row align-items-center h-100 justify-content-center">
             <div class="col-12 position-relative text-center">
@@ -38,10 +39,8 @@
                         <p class="text-gray alt-font fs-30 fw-700 xs-fs-17 xs-lh-26 ls-1px mb-25px sm-mb-15px mt-10px">
                             Leave the tech to us!
                         </p>
-                        <div class="alt-font fs-90 lh-100 xs-fs-80 xs-lh-70 mb-30px xs-mb-15px fancy-text-style-4">
-                            <span class="text-outline text-outline text-outline-width-1px sm-text-outline-width-1px text-outline-color-white text-outline-base-color-background">
+                        <div class="alt-font fs-90 lh-100 xs-fs-80 xs-lh-70 mb-30px xs-mb-15px fancy-text-style-4 text-base-color">
                                 Secure Seamless
-                            </span>
                         </div>
                         <div class="alt-font fs-110 lh-100 xs-fs-80 xs-lh-70 mb-30px xs-mb-15px fancy-text-style-4">
                             <span data-fancy-text='{ "effect": "rotate", "string": ["Scalable", "Customisable", "Result driven"] }' class="text-gray ls-minus-2px"></span>
@@ -53,11 +52,13 @@
     </div>
 </section>
 
+
+
 <section class="position-relative overflow-hidden z-index-0 pt-70px pb-70px">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 text-center position-relative md-mb-50px xs-mb-30px" data-anime='{ "rotateZ": [-15, 0], "opacity": [0,1], "duration": 1500, "delay": 300, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                <img src="https://dummyimage.com/700x400/000/aaa" alt />
+            <div class="col-xl-6 col-lg-6 text-center position-relative md-mb-50px xs-mb-30px" >
+                <img src="assets/images/about.png" alt />
             </div>
             <div class="col-xl-6 col-lg-6" data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <span class="fs-15 fw-600 text-red text-uppercase mb-25px d-block">
@@ -89,13 +90,15 @@
 </section>
 <!-- about end -->
 
-<section class="position-relative pt-70px pb-70px bg-light-medium-gray">
+
+<section class="position-relative overflow-hidden pt-70px pb-70px bg-dark-gray">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-10 text-center last-paragraph-no-margin">
-                <h3 class="alt-font fw-700 text-dark-gray text-cornflower-blue ls-minus-1px mb-4">Services we offer</h3>
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-6 col-lg-8 col-md-10 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-white mb-0 fw-600">Services we offer</h3>
             </div>
         </div>
+
         <div
             class="row row-cols-1 row-cols-lg-3 row-cols-md-2 transition-inner-all justify-content-center"
             data-anime='{ "el": "childs", "translateY": [20, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'
@@ -103,11 +106,11 @@
             <div class="col mb-30px" *ngFor="let item of services">
                 <div class="box-shadow-extra-large services-box-style-01 hover-box last-paragraph-no-margin border-radius-4px overflow-hidden">
                     <div class="position-relative box-image">
-                        <img src="https://img.freepik.com/premium-vector/3d-rendering-abstract-creative-illustration-3d-rendering-abstract-creative-illustration-abstrac_912214-56112.jpg?w=1800" class="h-100px" alt />
+                        <img src="assets/images/service-bg.jpg" class="h-100px" alt />
                     </div>
                     <div class="bg-white">
                         <div class="p-30px">
-                            <p class="d-inline-block fs-32 alt-font fw-400 text-dark-gray mb-10px">{{item.title}}</p>
+                            <p class="d-inline-block fs-28 alt-font fw-400 text-dark-gray mb-10px">{{item.title}}</p>
                             <p class="fs-16 text-black fw-300 w-100 mb-10px">{{item.content}}</p>
                             <a href="" class="text-cornflower-blue">Enquiry Now <i class="fa-solid fa-arrow-right-long text-cornflower-blue ms-10px"></i> </a>
                         </div>
@@ -119,7 +122,38 @@
 </section>
 <!-- service end -->
 
-<section class="pt-70px pb-70px">
+<section class="pt-70px pb-70px bg-very-light-gray">
+    <div class="container">
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-6 col-lg-8 col-md-10 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-black mb-0 fw-600">Technology Stack</h3>
+            </div>
+        </div>
+        <div 
+  class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-0" 
+  data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay":0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+  
+  <div 
+    class="col icon-with-text-style-04 transition-inner-all"  
+    *ngFor="let item of tech; let i = index" 
+    [class.no-border-bottom]="isSecondRow(i)" 
+    [class.no-border-right]="isLastChild(i)">
+    
+    <div class="feature-box hover-box h-100 transition dark-hover pt-25 pb-25 xs-p-12 overflow-hidden border-bottom border-end border-1 border-color-transparent-dark border-color-transparent-on-hover">
+      <div class="feature-box-icon">
+        <img src="assets/images/tech-stack/{{item.icons}}" class="mb-20px h-70px" alt />
+      </div>
+      <div class="feature-box-content">
+        <span class="d-inline-block text-black fw-600 fs-14 text-uppercase">{{item.title}}</span>
+      </div>
+      <div class="feature-box-overlay bg-base-color"></div>
+    </div>  
+  </div>
+</div>
+
+    </div>
+</section>
+<!-- <section class="pt-70px pb-70px overflow-hidden">
     <div class="container-fluid p-0">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-10 text-center last-paragraph-no-margin">
@@ -136,7 +170,7 @@
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide" *ngFor="let item of tech">
                             <div class="feature-box hover-box dark-hover">
-                                <div class="content-slide-up content-scale pt-20px p-10px border border-color-very-light-gray h-350px box-shadow">
+                                <div class="content-slide-up content-scale pt-20px p-10px border border-color-very-light-gray box-shadow">
                                     <div class="feature-box-icon">
                                         <img src="assets/images/tech-stack/{{item.icons}} " class="mb-20px h-70px" alt />
                                     </div>
@@ -154,15 +188,72 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+<!-- tech stack -->
 
-<section class="position-relative pt-120px pb-120px bg-light-medium-gray">
-    <div class="container-fluid p-0" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-10 text-center last-paragraph-no-margin">
-                <h3 class="alt-font fw-700 text-dark-gray text-cornflower-blue ls-minus-1px mb-4">Industries we serve</h3>
+<section class="position-relative pt-70px pb-70px bg-dark-gray">
+    <div class="container">
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-6 col-lg-8 col-md-10 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-white mb-0 fw-600">Our working process</h3>
             </div>
         </div>
+
+        <div class="row row-cols-1 row-cols-lg-5 row-cols-md-2">
+            <div class="col process-step-style-04 text-center last-paragraph-no-margin hover-box">
+                <div class="process-step-icon-box position-relative mb-25px">
+                    <span class="progress-step-separator bg-base-color w-55 separator-line-1px"></span>
+                    <img src="assets/images/icons/1.png" class="d-inline-block w-80px" />
+                </div>
+                <span class="d-inline-block fw-700 alt-font fs-18 text-white mb-10px">Requirement Gathering</span>
+                <p class="d-inline-block w-75 lg-w-100 md-w-80">We collaborate to understand goals and align requirements.</p>
+            </div>
+            <div class="col process-step-style-04 text-center last-paragraph-no-margin hover-box">
+                <div class="process-step-icon-box position-relative mb-25px">
+                    <span class="progress-step-separator bg-base-color w-55 separator-line-1px"></span>
+                    <img src="assets/images/icons/2.png" class="d-inline-block w-80px" />
+                </div>
+                <span class="d-inline-block fw-700 alt-font fs-18 text-white mb-10px">Prototyping, & Design</span>
+                <p class="d-inline-block w-75 lg-w-100 md-w-80">Creating intuitive wireframes, prototypes, and engaging designs.</p>
+            </div>
+            <div class="col process-step-style-04 text-center last-paragraph-no-margin hover-box">
+                <div class="process-step-icon-box position-relative mb-25px">
+                    <span class="progress-step-separator bg-base-color w-55 separator-line-1px"></span>
+                    <img src="assets/images/icons/3.png" class="d-inline-block w-80px" />
+                </div>
+                <span class="d-inline-block fw-700 alt-font fs-18 text-white mb-10px">Development</span>
+                <p class="d-inline-block w-75 lg-w-100 md-w-80">Build responsive, scalable websites with cutting-edge technology.</p>
+            </div>
+            <div class="col process-step-style-04 text-center last-paragraph-no-margin hover-box">
+                <div class="process-step-icon-box position-relative mb-25px">
+                    <span class="progress-step-separator bg-base-color w-55 separator-line-1px"></span>
+                    <img src="assets/images/icons/4.png" class="d-inline-block w-80px" />
+                </div>
+                <span class="d-inline-block fw-700 alt-font fs-18 text-white mb-10px">Quality Assurance</span>
+                <p class="d-inline-block w-75 lg-w-100 md-w-80">Testing for top-notch functionality, performance, and security.</p>
+            </div>
+            <div class="col process-step-style-04 text-center last-paragraph-no-margin hover-box">
+                <div class="process-step-icon-box position-relative mb-25px">
+                    <img src="assets/images/icons/5.png" class="d-inline-block w-80px" />
+                </div>
+                <span class="d-inline-block fw-700 alt-font fs-18 text-white mb-10px">Deployment</span>
+                <p class="d-inline-block w-75 lg-w-100 md-w-80">Seamlessly launching the website for a flawless go-live.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- process end -->
+
+
+
+<section class="overflow-hidden position-relative pt-100px pb-100px bg-very-light-gray">
+    <div class="container-fluid p-0" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-6 col-lg-8 col-md-10 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-black mb-0 fw-600">Industries we serve</h3>
+            </div>
+        </div>
+
         <div class="row g-0">
             <div class="col-12 feature-box-slider">
                 <div
@@ -257,13 +348,16 @@
 </section>
 <!-- industry serve -->
 
-<section class="position-relative pt-70px pb-70px">
+
+
+<section class="position-relative pt-70px pb-70px bg-dark-gray">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-10 text-center last-paragraph-no-margin">
-                <h3 class="alt-font fw-700 text-base-color ls-minus-1px mb-4">Why Web developement at God Particles?</h3>
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-6 col-lg-8 col-md-10 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-white mb-0 fw-600">Why Web developement at God Particles?</h3>
             </div>
         </div>
+
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 counter-style-03">
             <div class="col feature-box md-mb-50px xs-mb-30px">
                 <div class="feature-box-icon mb-15px">
@@ -294,58 +388,81 @@
 </section>
 <!-- why gp -->
 
-<section class="bg-very-light-gray position-relative pt-70px pb-70px">
+
+<section class="position-relative pt-70px pb-70px bg-very-light-gray">
     <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-10 text-center last-paragraph-no-margin">
-                <h3 class="alt-font fw-700 text-base-color ls-minus-1px mb-20px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, commodi!</h3>
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-10 col-lg-8 col-md-10 text-center"
+                data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-black mb-0 fw-600">Browse our portfolio and see how we bring websites to life!</h3>
             </div>
+        </div>
+        <div class="row justify-content-center mb-5">
             <div class="col-xl-12 tab-style-04 text-center">
                 <ul class="portfolio-filter fw-500 nav nav-tabs justify-content-center border-0">
                     <li class="nav active"><a data-filter="*" href="#">All</a></li>
                     <li class="nav"><a data-filter=".corporate" href="#">Corporate Websites</a></li>
                     <li class="nav"><a data-filter=".ecom" href="#">E-Commerce</a></li>
                     <li class="nav"><a data-filter=".food" href="#">Food Industry</a></li>
-                    <li class="nav"><a data-filter=".shopify" href="#">Shopify</a></li>
+                    <!-- <li class="nav"><a data-filter=".shopify" href="#">Shopify</a></li> -->
                     <li class="nav"><a data-filter=".government" href="#">Government Project</a></li>
                     <li class="nav"><a data-filter=".portfolio" href="#">Portfolio Websites</a></li>
                 </ul>
             </div>
         </div>
-        <div class="row" data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+        <div class="row"
+            data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
             <div class="col-12 filter-content p-md-0">
-                <ul class="portfolio-wrapper grid-loading grid grid-2col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-3col sm-grid-1col xs-grid-1col gutter-extra-large">
+                <ul
+                    class="portfolio-wrapper grid-loading grid grid-2col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-3col sm-grid-1col xs-grid-1col gutter-extra-large">
                     <li class="grid-sizer"></li>
                     <li class="grid-item transition-inner-all government">
                         <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                             <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt="" />
+                                <img src="assets/images/portfolio/tamilnadu-financedept.jpg" alt="" />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://financedept.tn.gov.in/en/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://financedept.tn.gov.in/en/" target="_blank"
+                                        class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Tamil Nadu Financedept</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Tamil Nadu
+                                            Financedept</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL </span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL </span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">WordPress</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">WordPress</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop </span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop </span>
                                     </span>
                                 </div>
                             </div>
@@ -357,30 +474,47 @@
                                 <img src="assets/images/portfolio/2.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://www.madras-mania.de/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://www.madras-mania.de/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Madras Mania</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Madras Mania
+                                        </p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">CodeIgniter</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">CodeIgniter</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -392,30 +526,46 @@
                                 <img src="assets/images/portfolio/6.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://www.aeduplay.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://www.aeduplay.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
                                         <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Aeduplay</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">CodeIgniter</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">CodeIgniter</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -427,30 +577,46 @@
                                 <img src="assets/images/portfolio/7.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://www.habitro.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://www.habitro.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
                                         <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Habitro</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, Angular JS, Zone JS, AOS</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, Angular JS, Zone JS, AOS</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">NodeJS</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">NodeJS</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Angular Framework</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Angular Framework</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -459,33 +625,50 @@
                     <li class="grid-item transition-inner-all ngo">
                         <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                             <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt />
+                                <img src="assets/images/portfolio/hope-ladder.jpg" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://www.hopeladder.ngo/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://www.hopeladder.ngo/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Hope Ladder</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Hope Ladder
+                                        </p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">CodeIgniter</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">CodeIgniter</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -494,33 +677,50 @@
                     <li class="grid-item transition-inner-all corporate">
                         <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                             <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt />
+                                <img src="assets/images/portfolio/feather-automation.jpg" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://featherautomation.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://featherautomation.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Feather Automation</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Feather
+                                            Automation</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Wordpress</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Wordpress</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -532,30 +732,47 @@
                                 <img src="assets/images/portfolio/9.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://www.overflowwcakesandcafe.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://www.overflowwcakesandcafe.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Overfloww Cakes & Cafe</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Overfloww
+                                            Cakes & Cafe</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">CodeIgniter</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">CodeIgniter</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -567,30 +784,47 @@
                                 <img src="assets/images/portfolio/8.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://baarnbrainie.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://baarnbrainie.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Baarn Brainie</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Baarn Brainie
+                                        </p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">WordPress (E-Commerce)</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">WordPress (E-Commerce)</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -602,30 +836,47 @@
                                 <img src="assets/images/portfolio/1.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://hyrinherbals.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://hyrinherbals.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Hyrin Herbals</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Hyrin Herbals
+                                        </p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Opencart</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Opencart</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -637,65 +888,46 @@
                                 <img src="assets/images/portfolio/4.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://godpiper.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://godpiper.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
                                         <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">GodPiper</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Wordpress</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Wordpress</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="grid-item transition-inner-all shopify">
-                        <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
-                            <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt />
-                            </div>
-                            <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://ojovathi.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
-                                </div>
-                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
-                                    <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Ojovathi</p>
-                                    </div>
-                                    <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
-                                    </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">Liquid (Shopify's template language)</span>
-                                    </span>
-
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
-                                    </span>
-
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Shopify</span>
-                                    </span>
-
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -704,33 +936,50 @@
                     <li class="grid-item transition-inner-all ecom">
                         <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                             <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt />
+                                <img src="assets/images/portfolio/ezhuthupizhai.jpg" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://ezhuthupizhai.in/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://ezhuthupizhai.in/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Ezhuthupizhai Publications</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Ezhuthupizhai
+                                            Publications</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Wordpress</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Wordpress</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -739,33 +988,50 @@
                     <li class="grid-item transition-inner-all corporate">
                         <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                             <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt />
+                                <img src="assets/images/portfolio/holisticwellnesswithpurnima.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://holisticwellnesswithpurnima.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://holisticwellnesswithpurnima.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Holistic Wellness</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Holistic
+                                            Wellness</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Wordpress</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Wordpress</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -774,33 +1040,50 @@
                     <li class="grid-item transition-inner-all portfolio">
                         <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                             <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt />
+                                <img src="assets/images/portfolio/mano-bharathi.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://www.manobharathi.com/home" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://www.manobharathi.com/home" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">ManoBharathi</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">ManoBharathi
+                                        </p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, Angular JS</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, Angular JS</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">NodeJS</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">NodeJS</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Dynamic Web Applications</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Dynamic Web Applications</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -812,65 +1095,47 @@
                                 <img src="assets/images/portfolio/3.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://connectwithcolors.de/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://connectwithcolors.de/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Connect With Colors</p>
+                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Connect With
+                                            Colors</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">WordPress</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">WordPress</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="grid-item transition-inner-all corporate">
-                        <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
-                            <div class="image">
-                                <img src="https://dummyimage.com/500/000/aaa" alt />
-                            </div>
-                            <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://fairylandfoundations.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
-                                </div>
-                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
-                                    <div class="d-flex align-items-center">
-                                        <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Fairyland Foundation</p>
-                                    </div>
-                                    <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
-                                    </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
-                                    </span>
-
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
-                                    </span>
-
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">WordPress</span>
-                                    </span>
-
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -882,30 +1147,46 @@
                                 <img src="assets/images/portfolio/5.png" alt />
                             </div>
                             <div class="bg-white position-relative">
-                                <div class="border border-radius-20px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
-                                    <a href="https://madello.com/" target="_blank" class="fw-500 text-base-color fs-16"><i class="fa-solid fa-globe me-5px text-base-color"></i>Launch Website</a>
+                                <div
+                                    class="border border-radius-100px bg-very-light-gray w-145px h-60px p-10px d-flex justify-content-center align-items-center position-absolute right-30px top-minus-40px">
+                                    <a href="https://madello.com/" target="_blank"
+                                                                                class="fw-500 text-cornflower-blue fs-16"><i
+                                            class="fa-solid fa-globe me-5px"></i>Launch Website</a>
                                 </div>
                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px">
                                     <div class="d-flex align-items-center">
                                         <p class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90 mb-5px">Madello</p>
                                     </div>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology Stack</p>
+                                        <p class="text-dark-gray fw-600 fs-15 md-fs-18 lh-28 w-90 mb-5px">Technology
+                                            Stack</p>
                                     </div>
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Front End</a><span
+                                            class="fs-16">HTML, CSS, Bootstrap, JavaScript</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span class="fs-16">PHP, MYSQL</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Back End</a><span
+                                            class="fs-16">PHP, MYSQL</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span class="fs-16">Dynamic Web Applications</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">CMS</a><span
+                                            class="fs-16">Dynamic Web Applications</span>
                                     </span>
 
-                                    <span class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
-                                        <a href="javascript:void(0)" class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span class="fs-16">Figma, Photoshop</span>
+                                    <span
+                                        class="d-block mb-10px border-bottom border-color-transparent-dark-very-light">
+                                        <a href="javascript:void(0)"
+                                            class="text-dark-gray fs-15 fw-600 services-text">Prototype Design</a><span
+                                            class="fs-16">Figma, Photoshop</span>
                                     </span>
                                 </div>
                             </div>
@@ -918,13 +1199,17 @@
 </section>
 <!-- portfolio end -->
 
-<section class="position-relative pt-40px pb-40px">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-10 text-center last-paragraph-no-margin">
-                <h3 class="alt-font fw-700 text-base-color ls-minus-1px mb-20px">FAQ</h3>
-            </div>
 
+
+<section class="position-relative pt-70px pb-70px bg-dark-gray">
+    <div class="container">
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-10 col-lg-8 col-md-10 text-center"
+                data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-white mb-0 fw-600">Frequently asked questions</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
             <div class="tab-content h-100">
                 <div class="tab-pane fade in active show" id="tab_seven1">
                     <div class="row">
@@ -933,9 +1218,9 @@
                                 <div class="accordion-item" *ngFor="let item of faqs; let i = index">
                                     <div class="accordion-header border-bottom border-color-extra-medium-gray">
                                         <a href="#" data-bs-toggle="collapse" [attr.data-bs-target]="'#accordion-style-01-' + i" aria-expanded="false" [attr.data-bs-parent]="'#accordion-style-01'">
-                                            <div class="accordion-title mb-0 position-relative text-dark-gray">
+                                            <div class="accordion-title mb-0 position-relative text-white">
                                                 <i class="feather icon-feather-plus"></i>
-                                                <span class="fw-500 fs-17">{{item.question}}</span>
+                                                <span class="fw-500 fs-17 text-white">{{item.question}}</span>
                                             </div>
                                         </a>
                                     </div>
@@ -955,7 +1240,31 @@
 </section>
 <!-- faq ends -->
 
-<section class="pt-70px pb-70px bg-black" id="contactform">
+<section class="overflow-hidden position-relative pt-70px pb-70px bg-very-light-gray">
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-5 sm-mb-30px">
+            <div class="col-xl-6 col-lg-8 col-md-10 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <h3 class="text-black mb-0 fw-600">Valuable customers</h3>
+            </div>
+        </div>
+
+        <div class="row position-relative clients-style-08" data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+            <div class="col swiper text-center feather-shadow" data-slider-options='{ "slidesPerView": 2, "spaceBetween":0, "speed": 6000, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-2", "clickable": false }, "allowTouchMove": false, "autoplay": { "delay":0, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-four-slide-next-2", "prevEl": ".slider-four-slide-prev-2" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 6 }, "992": { "slidesPerView": 4 }, "768": { "slidesPerView": 3 } }, "effect": "slide" }'>
+                <div class="swiper-wrapper marquee-slide">
+                    <div class="swiper-slide"  *ngFor="let client of clients">
+                        <img 
+                            [src]="'assets/images/clients/' + client + '.png'" 
+                            class="h-120px p-20px" 
+                            alt="Client {{ client }}">
+                    </div>
+                </div> 
+            </div>  
+        </div>
+    </div>
+</section>
+
+
+<section class="pt-70px pb-70px bg-dark-gray" id="contactform">
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-xl-5 col-lg-5 col-md-5 text-center">
@@ -1002,7 +1311,9 @@
     </div>
 </section>
 
-<footer class="pt-40px pb-40px footer-demo bg-dark-slate-blue" style="background-image: url(assets/images/footer-bg.png);">
+
+
+<footer class="pt-40px pb-40px footer-demo bg-dark-slate-blue">
     <div class="container">
         <div class="row mb-8">
             <div class="col-12">
