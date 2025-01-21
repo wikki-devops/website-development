@@ -42,9 +42,22 @@ header .navbar-brand img {
 }
 
 .bg-dark-gray {
-    background-color: #00017A !important;
+    background-color: #252840 !important;
 }
 
-a:hover {
+.bg-new {
+    background-color: #252840 !important;
+}
+
+.sticky .header-transparent .header-button .btn {
+    background-color: var(--base-color);
+    border-color: rgba(23, 23, 23, 0.20);
+    color: var(--black);
+}
+
+.btn:hover {
+    background-color: var(--base-color);
+}
+a:hover{
     color: black;
 }

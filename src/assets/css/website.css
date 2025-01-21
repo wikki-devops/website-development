@@ -4,9 +4,10 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet');
 /* variable */
 :root {     
-    --base-color: #ff474c;
+    --base-color: #ffd400;
     --medium-gray: #8d8987;
     --black: #282725;
     --dark-gray: #383632;
@@ -14,7 +15,8 @@
     --green: #46b57e;
     --very-light-gray: #f9f6f3;
     --yellow: #ECBA23;
-    --alt-font: "Playfair Display", serif;
+    /* --alt-font: "Playfair Display", serif; */
+    --alt-font: "Courier Prime", serif;
     --primary-font: "Inter", serif;
 } 
 body {
