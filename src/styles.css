@@ -1,1 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
+header .navbar-brand img {
+    max-height: 75px;
+}
+
+.portfolio-filter li {
+    padding: 0px 12px;
+}
+
+.nav-tabs .nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.nav-tabs .nav-item a {
+    flex: 1 1 auto;
+}
+
+@media (max-width: 768px) {
+    .nav-tabs .nav-item {
+        width: 50%;
+        /* Two columns */
+    }
+    .sm-no-border-bottom {
+        border-bottom: none !important;
+    }
+    
+    .sm-no-border-bottom {
+        border-right: none !important;
+    }
+    
+}
+
+.tab-style-02 .nav-tabs>li.nav-item>a.nav-link.active {
+    border-bottom: none !important;
+}
+
+.tab-style-02 .nav-tabs>li.nav-item>a.nav-link:hover {
+    border-bottom: none !important;
+}
+
+.no-border-bottom .feature-box {
+    border-bottom: none !important;
+}
+
+.no-border-right .feature-box {
+    border-right: none !important;
+}
+
+
+.bg-dark-gray {
+    background-color: #252840 !important;
+}
+
+.bg-new {
+    background-color: #252840 !important;
+}
+
+.sticky .header-transparent .header-button .btn {
+    background-color: var(--base-color);
+    border-color: rgba(23, 23, 23, 0.20);
+    color: var(--black);
+}
+
+.btn:hover {
+    background-color: var(--base-color);
+}
+
+a:hover {
+    color: black;
+}

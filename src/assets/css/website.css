@@ -3,8 +3,8 @@
 ====================================== */
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* variable */
 :root {     
     --base-color: #ffd400;
@@ -16,7 +16,7 @@
     --very-light-gray: #f9f6f3;
     --yellow: #ECBA23;
     /* --alt-font: "Playfair Display", serif; */
-    --alt-font: "Courier Prime", serif;
+    --alt-font: "Montserrat", serif;
     --primary-font: "Inter", serif;
 } 
 body {
